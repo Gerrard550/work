@@ -45,3 +45,106 @@ li a {
 li a:hover {
   color: gold;
 }
+
+h1 {
+  font-size: 60px;
+  font-style: italic;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  padding: 30px 20px;
+  color: #50c7a5;
+}
+
+p {
+  padding: 0 20px;
+}
+
+.card1 {
+  width: 35%;
+  height: 50vh;
+  background-color: brown;
+  border: 10px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px 300px;
+}
+
+.card2 {
+  width: 35%;
+  height: 50vh;
+  background-color: brown;
+  border: 10px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px 300px;
+}
+
+.card3 {
+  width: 35%;
+  height: 50vh;
+  background-color: brown;
+  border: 10px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px 300px;
+}
+
+.card4 {
+  width: 35%;
+  height: 50vh;
+  background-color: brown;
+  border: 10px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px 300px;
+}
+
+.card5 {
+  width: 35%;
+  height: 50vh;
+  background-color: brown;
+  border: 10px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px 300px;
+}
+
+.card6 {
+  width: 35%;
+  height: 50vh;
+  background-color: brown;
+  border: 10px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px 300px;
+}
+
+.card7 {
+  width: 35%;
+  height: 50vh;
+  background-color: brown;
+  border: 10px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px 300px;
+}
+
+.photo-grid img {
+  width: 400px;
+  height: 260px;
+}
