@@ -15,6 +15,7 @@ h1 {
   display: inline;
   padding: 40px 20px;
   margin-bottom: 50px;
+  cursor: pointer;
 }
 
 .great {
@@ -43,5 +44,93 @@ a {
   justify-content: center;
   align-items: center;
   border: 2px solid black;
+  border-radius: 10px;
+}
+
+.add:hover,
+.convert:hover,
+.send:hover {
+  opacity: 50%;
+  background-color: rgb(117, 184, 117);
+  transition: transform 0.2s ease;
+  transform: scale(0.9);
+}
+
+h2 {
+  font-size: 30px;
+  margin: 20px 180px;
+  height: 80px;
+  width: 400px;
+  cursor: pointer;
+}
+
+h3 {
+  font-size: 22px;
+  margin: 20px 100px;
+}
+
+p {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 20px 200px;
+  /* display: inline; */
+}
+
+.flag img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: block;
+  margin: 20px 150px;
+  /* position: relative;
+  top: auto;
+  right: 20px; */
+}
+
+.card {
+  height: 640px;
+  width: 500px;
+  border: 2px solid rgb(232, 228, 228);
+  border-radius: 10px;
+  margin: 10px 80px;
+}
+
+.dollar {
+  height: 120px;
+  width: 499px;
+}
+
+.dollar:hover {
+  border: 2px solid rgb(232, 228, 228);
+  border-radius: 10px;
+}
+
+.naira {
+  height: 120px;
+  width: 499px;
+}
+
+.naira:hover {
+  border: 2px solid rgb(232, 228, 228);
+  border-radius: 10px;
+}
+
+.euro {
+  height: 120px;
+  width: 499px;
+}
+
+.euro:hover {
+  border: 2px solid rgb(232, 228, 228);
+  border-radius: 10px;
+}
+
+.pound {
+  height: 120px;
+  width: 499px;
+}
+
+.pound:hover {
+  border: 2px solid rgb(232, 228, 228);
   border-radius: 10px;
 }
